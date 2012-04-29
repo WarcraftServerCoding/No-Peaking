@@ -20,6 +20,5 @@ this.log.info("NP (No Peek) has been disabled!")
 }
 
 public void onEnable() {
-
 PluginManager pm = getServer().getPluginManager();
 }
