@@ -1,0 +1,23 @@
+name: NoPeak
+version: 0.1
+main: com.warcraftserver.NoPeak
+commands:
+  nopeak:
+      description: No Peaking!
+      usage: /peak
+  plugins:
+      description: No plugin listings
+      usage: /plugins
+  pl:
+      description: No plugin listings alternative
+      usage: /pl
+  peakversion:
+      description: Version
+      usage: /peak version
+  peakver:
+      description: Version
+      usage: /peak ver
+permissions:
+  nopeak.peak.allow:
+    description: Allow peaking
+    default: op
