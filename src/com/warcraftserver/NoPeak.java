@@ -2,8 +2,6 @@
 package com.warcraftserver;
 
 import java.util.logging.Logger;
-import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.event.EventPriority;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -21,6 +19,7 @@ public class NoPeak extends JavaPlugin {
         this.log.info("[No Peak] has been disabled!");
     }
     
+    @Override
     public void onEnable()
     {
         PluginManager pm = getServer().getPluginManager();
