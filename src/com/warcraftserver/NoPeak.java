@@ -25,7 +25,7 @@ public class NoPeak extends JavaPlugin {
         PluginManager pm = getServer().getPluginManager();
         
         this.getConfig();
-        this.getConfig().options().header("Change the message: 'No Peaking at our plugins!'");
+        this.getConfig().options().header("Access Message: No Peaking at our plugins!");
         message = this.getConfig().getString("Access Message", "No Peaking!");
         enableOrDisable = this.getConfig().getString("Send Output", "true");
         this.saveConfig();
